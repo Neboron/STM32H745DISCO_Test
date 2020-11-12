@@ -132,7 +132,7 @@ Error_Handler();
   MX_GPIO_Init();
   MX_LTDC_Init();
   /* USER CODE BEGIN 2 */
-  //HAL_LTDC_SetAddress (&hltdc, (uint32_t)&framebuffer_01, LTDC_LAYER_1);
+  HAL_LTDC_SetAddress (&hltdc, (uint32_t)&framebuffer_01, LTDC_LAYER_1);
   TFT_FillScreen((uint32_t)0x0FF0);
   /* USER CODE END 2 */
 
